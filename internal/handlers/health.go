@@ -3,8 +3,7 @@ package handlers
 import (
 	"fmt"
 	"net/http"
-
-	"urlshortener/internal/store"
+	"url-shortener/internal/store"
 )
 
 type HealthHandler struct {
